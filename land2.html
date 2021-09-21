@@ -1,0 +1,118 @@
+<html>
+	<head>
+		<title></title>
+		<style>
+			#grad
+				{
+					background-image:linear-gradient(lightgreen,yellow);
+				}
+			.textOverImage
+				{
+					width:300px;
+					height:200px;
+					display:inline-block;
+					background-size:cover;
+					border-radius:4px;
+					margin:4px;
+					position:relative;
+					cursor:pointer;
+					overflow:hidden;
+				}
+  
+			.textOverImage > input
+				{
+					display:none;
+				}
+			.textOverImage > div,.textOverImage > h2
+				{
+					position:absolute;
+					background-color:rgba(255,255,255,0.8);
+					bottom:20px;
+					left:4px;
+					right:4px;
+					border-radius:4px;
+					padding:8px;
+					overflow:hidden;
+					opacity:0;
+					transition:.3s;
+				}
+  
+		  .textOverImage:hover > h2,.textOverImage > input:checked + h2 + div
+				{
+					bottom:4px;
+					opacity:1;
+				}
+  
+		.textOverImage > input:checked + h2
+				{
+					bottom:-20px;
+					opacity:0;
+				}
+		.textOverImage > h2
+				{
+					margin:0;
+				}
+		</style>
+	</head>
+	<body id="grad">
+		<center><table cellpadding="20">
+			<tr>
+				<td><label class="textOverImage" style="background-image:url(land5.jpg)">
+					<input type="checkbox">
+					<h2>FUN RIDE</h2>
+					<div>
+						To ride ina box without wings.This ride is a candy box for children and for them it's difficult to
+						leave inside they find entertainment,fun and joy in a safe manner.
+					</div>
+					</label>
+				</td>
+				<td><b><u>Conditions</u><br>
+				Maximum members:40<br>
+				Minimum height:145cm<br>
+				Duration:5 Minutes<br></b></td>
+				<td><label class="textOverImage" style="background-image:url(land6.jpg)">
+					<input type="checkbox">
+					<h2>BABY RIDE</h2>
+					<div>
+					 Multi colour shaped ride specially designed for children to enjoy the endless fun and adventure with our super friendly ride for your little kids..
+					</div>
+					</label>
+				</td>
+				<td><b><u>Conditions</u><br>
+				Maximum members:20<br>
+				Minimum height:100cm<br>
+				Duration:7 Minutes<br></b></td>
+			</tr>
+			<tr>
+			<td><label class="textOverImage" style="background-image:url(land7.jpg)">
+					<input type="checkbox">
+					<h2>SWING CHAIR</h2>
+					<div>
+						The Swing ride gives the experience of fear excitment,exhilaration and classic thrill.
+					</div>
+					</label>
+				</td>
+				<td><b><u>Conditions</u><br>
+				Maximum members:40<br>
+				Minimum height:145cm<br>
+				Duration:15 Minute<br></b></td>
+				<td><label class="textOverImage" style="background-image:url(land8.jpg)">
+					<input type="checkbox">
+					<h2>BUMP CAR</h2>
+					<div>
+						Bumper can rides and designed so that the cars can collide without much danger to the riders.
+						Each car has a large rubber bumper all around it.
+					</div>
+					</label>
+				</td>
+				<td><b><u>Conditions</u><br>
+				Maximum members:30<br>
+				Minimum height:145cm<br>
+				Duration:6 Minutes<br></b></td>
+			<tr>
+		</table>
+		</center>
+		<center><a href="land.html">BACK</a>
+	
+	</body>
+</html>

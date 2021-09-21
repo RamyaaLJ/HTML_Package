@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title></title>
+		<style>
+			#grad
+			{
+			 background-image:linear-gradient(lightgreen,yellow);
+			} 
+		</style>
+	</head>
+	<body id="grad">
+		<h1><b><center>TICKET BOOKING</center></b></h1>
+		<form width="50pixels">
+			<fieldset>
+				<legend><h3>BOOKING DETAILS</h3></legend>
+		<center><table>
+			<tr>
+				<td><b><b>Name&colon;</b></td>
+				<td><input type="text"  pattern="[a-zA-Z]+" placeholder="Enter your name">
+			</tr>
+			<tr>
+				<td><b>Contact no&colon;</b></td>
+				<td><input type="number" maxlength="10" placeholder="Enter your contact no">
+			</tr>
+			<tr>
+				<td><b>Date&colon;</b></td>
+				<td><input type="date"></td>
+			</td>
+			<tr>
+				<td><b>Address&colon;</b></td>
+				<td><textarea rows="4" cols="22" placeholder="Enter your address"></textarea>
+			</tr>
+			<tr>
+				<td><b>No of adults&colon;</b></td>
+				<td><input type="number"  maxlength="3"placeholder="Enter the no of adults">
+			</tr>
+			<tr>
+				<td><b>No of children&colon;</b></td>
+				<td><input type="number"  maxlength="3" placeholder="Enter the no of children">
+			</tr>
+			<tr>
+				<td><b>Email&colon;</b></td>
+				<td><input type="email" placeholder="Enter the email">
+			<tr>
+				<td rowspan="2"><b>Paying Method&colon;</b></td>
+				<td><input type="radio" value="method" name="method">Debit Card</td>
+			</tr>
+			<tr>
+				<td><input type="radio" value="method" name="method">Credit card</td>
+			</tr>
+		</table></center>
+			</fieldset>
+		</form>
+		<table>
+		<h1>Packages Available</h1>
+			<tr>
+				<td background-color="grey"><h4><b>FUN WORLD</b></h4></td>
+			</tr>
+			<tr>
+				<td><b>Land rides,water rides,Horror house,Snow world,7-d theatre</b></td>
+				</tr>
+			<tr>
+				<td><input type="button" onclick="window.location.href='booking.html';" value="Book"/>&nbsp;&nbsp;&nbsp;&nbsp;Rs.800</td>
+			</tr>
+			<tr>
+				<td background-color="grey"><h4><b>WATER WORLD</b></h4>
+			</tr>
+			<tr>
+				<td><b>Water rides,Snow world</b></td>
+			</tr>
+			<tr>
+				<td><input type="button" onclick="window.location.href='booking.html';" value="Book"/>&nbsp;&nbsp;&nbsp&nbsp;Rs.550</td>
+			</tr>
+			<tr>
+				<td background-color="grey"><h4><b>THRILL RIDES</b></h4>
+			</tr>
+			<tr>
+				<td><b>Land rides,Horror house,7-d theatre</b></td>
+			</tr>
+			<tr>
+				<td><input type="button" onclick="window.location.href='booking.html';" value="Book"/>&nbsp;&nbsp;&nbsp;&nbspRs.650</td>
+			</tr>
+		</table>
+		<center><a href="home.html">Home</a></center>
+	</body>
+</html>

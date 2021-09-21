@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<title></title>
+		<style>
+			#grad
+			{
+				background-image:linear-gradient(lightgreen,yellow);
+			}
+			.textOverImage
+			{
+				width:300px;
+				height:200px;
+				display:inline-block;
+				background-size:cover;
+				border-radius:4px;
+				margin:4px;
+				position:relative;
+				cursor:pointer;
+				overflow:hidden;
+			 }
+			 .textOverImage > input
+			  {
+				display:none;
+			  }
+			 .textOverImage > div,.textOverImage > h2
+			  {
+				position:absolute;
+				background-color:rgba(255,255,255,0.8);
+				bottom:20px;
+				left:4px;
+				right:4px;
+				border-radius:4px;
+				padding:8px;
+				overflow:hidden;
+				opacity:0;
+				transition:.3s;
+			  }
+			 .textOverImage:hover > h2,.textOverImage > input:checked + h2 + div
+			  {
+				bottom:4px;
+				opacity:1;
+			  }
+			  .textOverImage > input:checked + h2
+			  {		
+				bottom:-20px;
+				opacity:0;
+		      }
+			.textOverImage > h2
+			 {
+				margin:0;
+             }
+		</style>
+	</head>
+	<body id="grad">
+		<center><h1><b>LAND RIDES</b></h1><center>
+		<table cellpadding="20">
+			<tr>
+				<td><label class="textOverImage" style="background-image:url(land1.jpg)">
+					<input type="checkbox">
+					<h2>ROLLER COASTER</h2>
+					<div>
+						If you don't get on the ride,you won't experience the adventure.You can scream every time or throw your hands up and enjoy the ride.
+					</div>
+					</label></td>
+				<td><b><u>Conditions</u><br>
+				Maximum members:50<br>
+				Minimum height:145cm<br>
+				Duration:10 Minutes<br></b></td>
+				<td><label class="textOverImage" style="background-image:url(land2.jpg)">
+					<input type="checkbox">
+					<h2>FRISBEE</h2>
+					<div>
+						The frisbee is type of pendulum amusement ride featuring a circular gondola that rotates as it swings back and forth.
+					</div>
+					</label></td>
+				<td><b><u>Conditions</u><br>
+				Maximum members:25<br>
+				Minimum height:100cm<br>
+				Duration:15 Minutes<br></b></td>
+			</tr>
+			<tr>
+			<td><label class="textOverImage" style="background-image:url(land3.jpg)">
+					<input type="checkbox">
+					<h2>GIANT WEEL</h2>
+					<div>
+						It takes low and high;and when you reach at the top,it's like touching the sky.Just pause in your seat,
+						enjoy the ride,and hang on until you reach the top again.
+					</div>
+					</label></td>
+				<td><b><u>Conditions</u><br>
+				Maximum members:100<br>
+				Minimum height:145cm<br>
+				Duration:12 Minute<br></b></td>
+				<td><label class="textOverImage" style="background-image:url(land4.jpg)">
+					<input type="checkbox">
+					<h2>FREE FALL</h2>
+					<div>
+						A Free Fall is a type of amusement ride incoporating a central structure or tower.
+						The thrill of free falling enhances this sensation bounching which makes this ride more entertaining.
+					</div>
+					</label></td>
+				<td><b><u>Conditions</u><br>
+				Maximum members:30<br>
+				Minimum height:145cm<br>
+				Duration:3 Minutes<br></b></td>
+			<tr>
+		</table>
+		<center><a href="land2.html">More images</a>
+		<center><a href="home.html">Home</a>
+	
+	</body>
+</html>
